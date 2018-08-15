@@ -1,3 +1,3 @@
 # ARLE
 
-Automated Robot for Library Managment
+Automated Robot for Library Enhacement
