@@ -1,0 +1,8 @@
+prefix=/home/baaahy/portal/work/ongoingProjects/libraryBot/motorRpiRos/arle_ws/devel
+
+Name: motor_mgr
+Description: Description of motor_mgr
+Version: 0.0.0
+Cflags: -I/home/baaahy/portal/work/ongoingProjects/libraryBot/motorRpiRos/arle_ws/devel/include -I/home/baaahy/portal/work/ongoingProjects/libraryBot/motorRpiRos/arle_ws/src/motor_mgr/include
+Libs: -L/home/baaahy/portal/work/ongoingProjects/libraryBot/motorRpiRos/arle_ws/devel/lib -lmotor_mgr
+Requires: roscpp rospy std_msgs message_runtime

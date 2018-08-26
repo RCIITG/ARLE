@@ -1,0 +1,2 @@
+motor_mgr
+-DCATKIN_DEVEL_PREFIX=/home/baaahy/portal/work/ongoingProjects/libraryBot/motorRpiRos/arle_ws/devel -DCMAKE_INSTALL_PREFIX=/home/baaahy/portal/work/ongoingProjects/libraryBot/motorRpiRos/arle_ws/install -G Unix Makefiles
