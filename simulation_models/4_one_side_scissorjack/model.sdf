@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='scissorfinal2'>
+    <include>
+	<uri>model://scissor3</uri>
+	<pose>0 0 0 0 -0.78535 0</pose>
+    </include>
+      
+    <include>
+	<uri>model://scissor9</uri>
+	<pose>0 0 0.791959 0 -0.78535 0</pose>
+    </include> 
+      
+
+      <joint name='link_0_clone_0_JOINT_1' type='revolute'>
+      <parent>scissor3::link_0_clone_0</parent>
+      <child>scissor9::link_0_clone</child>
+      <pose frame=''>0.28 0 0 0 -0 0</pose>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <use_parent_model_frame>0</use_parent_model_frame>
+        <limit>
+          <lower>-1.79769e+308</lower>
+          <upper>1.79769e+308</upper>
+          <effort>-1</effort>
+          <velocity>-1</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+          <damping>0</damping>
+        </dynamics>
+      </axis>
+      <physics>
+        <ode>
+          <limit>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </limit>
+          <suspension>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </suspension>
+        </ode>
+      </physics>
+    </joint>
+    <joint name='link_0_clone_clone_JOINT_0' type='revolute'>
+      <parent>scissor3::link_0_clone_clone</parent>
+      <child>scissor9::link_0</child>
+      <pose frame=''>-0.28 0 0 0 -0 0</pose>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <use_parent_model_frame>0</use_parent_model_frame>
+        <limit>
+          <lower>-1.79769e+308</lower>
+          <upper>1.79769e+308</upper>
+          <effort>-1</effort>
+          <velocity>-1</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+          <damping>0</damping>
+        </dynamics>
+      </axis>
+      <physics>
+        <ode>
+          <limit>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </limit>
+          <suspension>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </suspension>
+        </ode>
+      </physics>
+    </joint>   
+           
+              
+  </model>
+</sdf>
