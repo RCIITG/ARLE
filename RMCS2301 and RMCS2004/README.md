@@ -16,6 +16,7 @@ This code works for accelerating the motor using **PWM signal** where the signal
 This motor is like a vehicle motor wokring on a *clutch and acceleration mechanism*. In this mechanism we need to increase the speed slowly as the speed can't we achieved directly because the inital speed is very high and sudden increase in speed might damage the controller **RMCS-2301** is designed in such a way that if such a jerk comes is send the controller into a state of permanent error and the motor stops with a jerk.
 
 So we decreased the signal pulse width slowly starting from 4 milisecond time period down to almost zero following an equation of 
+
 $$
 
 $$
