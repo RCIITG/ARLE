@@ -7,4 +7,4 @@ This code works for accelerating the motor using **PWM signal** where the signal
 
 # Circuit Diagram
 
-[Circuit Diagram](images/Motor_Connection.png)
+![Circuit Diagram](images/Motor_Connection.png)
