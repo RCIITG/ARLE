@@ -1,4 +1,6 @@
+
 ## Motor Driver RMCS 2301 with Planetary Encoder Geared Motor RMCS 2004
+
 This is an arduino code for accelerating the [Planetary Geared Motor RMCS 2004](https://robokits.co.in/motors/encoder-dc-servo/planetary-encoder-geared-motor-24v-175rpm-100w?cPath=2_3_317&) using the [RMCS 2301 Motor Driver](https://robokits.co.in/motor-drives-drivers/encoder-dc-servo/dc-servo-motor-driver-40v-20a-w-t-step-direction-input) previously unavailable on any platform.
 
 This code works for accelerating the motor using **PWM signal** where the signal pulse width is a *square wave* whose width is being decreased over time to control the motor.
@@ -24,3 +26,5 @@ Where *T= Time Period, d= Half the time period of square wave(delayMicros), a,k=
 ![Pulse Width](images/acell.png)
 
 We followed this equation so that the initial speed is very low so the overshoot due to jerk doesn't send the motor driver in permanent state of error and then we slowly increase the speed as the pulsewidth falls down exponentially 
+
+
