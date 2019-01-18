@@ -17,6 +17,10 @@ This motor is like a vehicle motor wokring on a *clutch and acceleration mechani
 
 So we decreased the signal pulse width slowly starting from 4 milisecond time period down to almost zero following an equation of 
 
-$$
+![Equation](images/CodeCogsEqn.png)
 
-$$
+Where *T= Time Period, d= Half the time period of square wave(delayMicros), a,k= constants* 
+
+We followed this equation so that the initial speed is very low so the overshoot due to jerk doesn't send the motor driver in permanent state of error and then we slowly increase the speed as the pulsewidth falls down exponentially 
+
+![Pulse Width](images/acell.png)
