@@ -1,0 +1,37 @@
+﻿Name,Value,Category,Description
+Phase Marg,67.71 °,System Information,Bode Plot Phase Margin
+Cross Freq,44.08 kHz,System Information,Bode plot crossover frequency
+Low Freq Gain,83.29 dB,System Information,Gain at 1Hz
+Gain Marg,-23.56 dB,System Information,Bode Plot Gain Margin
+Vout,19 V,System Information,Operational Output Voltage
+Cin IRMS,1.01 A,Capacitor,Input capacitor RMS ripple current
+Cin Pd,2.4 mW,Capacitor,Input capacitor power dissipation
+Cout IRMS,273.48 mA,Capacitor,Output capacitor RMS ripple current
+Cout Pd,2.24 mW,Capacitor,Output capacitor power dissipation
+Duty Cycle,74.62%,System Information,Duty cycle
+Efficiency,96.4%,System Information,Steady state efficiency
+Frequency,810.79 kHz,System Information,Switching frequency
+IC Tj,91.78 °C,IC,IC junction temperature
+L Ipp,947.37 mA,Inductor,Peak-to-peak inductor ripple current
+L Pd,340.79 mW,Inductor,Inductor power dissipation
+IC Pd,1.54 W,IC,IC power dissipation
+Diode Pd,500.36 mW,Diode,Diode power dissipation
+Pout,64.6 W,System Information,Total output power
+Iin Avg,2.58 A,IC,Average input current
+IC Ipk,0 A,IC,Peak switch current in IC
+Mode,CCM,System Information,Conduction Mode
+Vout p-p,28.42 mV,System Information,Peak-to-peak output ripple voltage
+ICThetaJA Effective,40 °C/W,IC,Effective IC Junction-to-Ambient Thermal Resistance
+FootPrint,376 mm²,System Information,Total Foot Print Area of BOM components
+Vout Actual,19.03 V,System Information,Vout Actual calculated based on selected voltage divider resistors
+Vout Tolerance,2.07%,System Information,Vout Tolerance based on IC Tolerance (no load) and voltage divider resistors if applicable
+Vin,26 V,System Information,Vin operating point
+Iout,3.4 A,System Information,Iout operating point
+Cin Pd,2.4 mW,Power,Input capacitor power dissipation
+Cout Pd,2.24 mW,Power,Output capacitor power dissipation
+L Pd,340.79 mW,Power,Inductor power dissipation
+IC Pd,1.54 W,Power,IC power dissipation
+Diode Pd,500.36 mW,Power,Diode power dissipation
+Total BOM,$4.05,System Information,Total BOM Cost
+Total Pd,2.39 W,Power,Total Power Dissipation
+BOM Count,14 ,System Information,Total Design BOM count
