@@ -13,7 +13,7 @@ the screen.
 
 ## Circuit Diagram
 
-![Circuit Diagram](images/circuit diagram.png)
+![Circuit Diagram](images/circuit_diagram.png)
 
 ## LIB Instructions
 
