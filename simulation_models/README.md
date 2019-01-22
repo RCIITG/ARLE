@@ -1,5 +1,5 @@
 # Gazebo Models of the bot
- The complete bot design was made on Gazebo as simple parts and joined together in the final model. There are some errors in the model design which will be updated with time.
+ The complete bot design was made on Gazebo as simple parts and joined together in the final model. There are some errors in the model design which will be updated with time. (Images to be uploaded on 23rd Jan)
  
  ## Scissor Jack
  The basic elements and the models are availabe in order:
