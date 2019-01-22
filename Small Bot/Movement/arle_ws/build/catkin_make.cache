@@ -1,0 +1,2 @@
+motor_management
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/arle_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/arle_ws/install -G Unix Makefiles

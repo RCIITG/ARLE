@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/arle_ws/install
+
+Name: motor_management
+Description: Description of motor_management
+Version: 0.0.0
+Cflags: -I/home/ubuntu/arle_ws/install/include
+Libs: -L/home/ubuntu/arle_ws/install/lib 
+Requires: 
