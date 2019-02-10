@@ -10,20 +10,27 @@ ARLE or Automated Robot for Library Enhancement is an effort to make an automate
 
 At present, the project is in its first stage, which aims to make an four wheeled platform vehicle capable of autonomous navigation.
 
-Contents:
+**Contents:**
+---------------
+
+|
 
 
 .. header:: thisfdf 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    
    intro
    team
    modules
+   imp_info
    progress
    resources
 
+
+|
+|
 
 
 Indices and tables

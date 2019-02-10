@@ -1,4 +1,4 @@
-ARLE: Mechanical Design
+Mechanical Design
 =======================
 
 The mechanical design of the robot comprises of below mentioned components :-
