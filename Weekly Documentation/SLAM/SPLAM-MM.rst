@@ -7,7 +7,6 @@ Long-Term Online Multi-Session Graph-Based SPLAM with Memory Management
 
 Link: 
 ----- 
-
 https://introlab.3it.usherbrooke.ca/mediawiki-introlab/images/8/87/LabbeAURO2017.pdf
 
 Abstract: What is paper/resource about?
