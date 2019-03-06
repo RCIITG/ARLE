@@ -16,18 +16,18 @@
 #define c_EncoderPinB 6             //  channel B, encoder output pin
 volatile bool _EncoderBSet;         //  channel B value
 volatile long _Position = 0;        //  motor shaft position in ticks
-float velocity = 0.0
-volatile long _TicksCount = 0;      //  ticks since start
+float velocity = 0.0;
+volatile long _TicksCount = 0,total__TicksCount=0;      //  ticks since start
 int revs = 0;                       //  no of revolutions of shaft
 int dir = 0;                        //  direction of rotation
-unsigned long time[2];                 // 
+unsigned long time;                 // 
 unsigned long prev_time = -1;
 
 
 // Motor Out
 #define out_1 10          
 #define out_2 11
-
+#define out_3 9
 
 
 
@@ -44,6 +44,7 @@ void setup() {
   digitalWrite(out_1, HIGH);
   pinMode(out_2, OUTPUT);
   digitalWrite(out_2, LOW);
+  analogWrite(out_3, 255);
 
 
   //attachInterrupt(digitalPinToInterrupt(c_RightEncoderInterrupt), HandleRightMotorInterruptA, RISING);
@@ -57,13 +58,27 @@ void setup() {
 void loop() {
   //Serial.println(_TicksCount);
   //<Serial.println(_EncoderBSet);
+  if(Serial.read()=='c'){
+    digitalWrite(out_1, HIGH);
+    digitalWrite(out_2, LOW);
+    
+ }
+  if(Serial.read()=='r'){
+    digitalWrite(out_1, LOW);
+    digitalWrite(out_2, HIGH);
+ }
+  
   if (_TicksCount > 12000 ) {
     revs++;
     _TicksCount = 0;
     //Serial.print("revs" ) ;
     //Serial.print(revs);
     time = millis();
-    Serial.println(time - prev_time);
+    Serial.print(time - prev_time);
+    velocity = (1.0 / (time - prev_time)) * 60 * 1000; // rpm
+    Serial.print(" -> ");
+    Serial.println(velocity);
+    Serial.println(total__TicksCount);
     prev_time = time;
     //digitalWrite(out_2, HIGH);
   }
@@ -75,6 +90,7 @@ void HandleRightMotorInterruptA()
 {
   // count the ticks between some interval and calculate the rotation rate in the interval
   _TicksCount++;
+  total__TicksCount++;
 
   //
 
