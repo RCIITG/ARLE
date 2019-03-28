@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='jointscissor1'>
+    <include>
+	<uri>model://scissorfinal1</uri>
+	<pose>0 0 0.212132 0 0 0</pose>
+    </include>
+      
+    <include>
+	<uri>model://scissorfinal2</uri>
+	<pose>0 0.32 0.212132 0 0 0</pose>
+    </include> 
+         
+           
+              
+  </model>
+</sdf>
