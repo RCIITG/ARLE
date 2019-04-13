@@ -19,5 +19,6 @@ ARLE or Automated Robot for Library Enhancement is an effort to make an automate
 ## Steps for running bot:
 1. Export master URI
 2. run rplidar
-3. run arduino node
-4. run arle controller
+3. run arle controller
+4. run arduino node
+
