@@ -7,7 +7,7 @@
 
 ARLE or Automated Robot for Library Enhancement is an effort to make an automated robot capable of mananging (picking and placing) books in the institute library. It is a complex project making use of various technologies like – Computer Vision, Deep Learning, Autonomous Navigation, Localization, 3D Mapping, Sensor Data Management, Robot Operating System and many more.
 
-[![ARLE Mini](https://img.youtube.com/vi/51S_pQePftE/0.jpg)](https://www.youtube.com/watch?v=51S_pQePftE)
+[![ARLE Mini](https://imgur.com/SFlYk2o)](https://www.youtube.com/watch?v=51S_pQePftE)
 
 ## Installation on Rpi:
 
