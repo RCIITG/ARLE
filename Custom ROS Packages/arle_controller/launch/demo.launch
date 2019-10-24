@@ -1,0 +1,11 @@
+<launch>
+<node pkg="arle_controller" type="diff_tf.py" name="diff_tf" />
+
+<node pkg="arle_controller" type="twist_to_motors.py" name="twist_to_motors" />
+
+<!--<node pkg="arle_controller" type="motor.py" name="motor" output="screen"/>-->
+
+<node pkg="arle_controller" type="laser_to_baselink.py" name="laser_to_baselink" />
+
+
+</launch>
