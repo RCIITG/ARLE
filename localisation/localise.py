@@ -1,5 +1,5 @@
 # The function localize takes the following arguments:
-#
+#localization 
 # colors:
 #        2D list, each entry either 'R' (for red cell) or 'G' (for green cell)
 #
