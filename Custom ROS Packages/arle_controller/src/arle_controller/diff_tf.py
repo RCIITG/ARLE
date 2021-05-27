@@ -3,6 +3,8 @@
 """
    diff_tf.py - follows the output of a wheel encoder and
    creates tf and odometry messages.
+   the file is under the prosses of calibration according the
+   structure of the bot.
    some code borrowed from the arbotix diff_controller script
    A good reference: http://rossum.sourceforge.net/papers/DiffSteer/
    
